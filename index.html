@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootcamp DNC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+   <header class="header">
+       <nav class="navmenu">
+           <ul class="navmenu__link">
+               <li class="navmenu__list-link"><a href="" class="navmenu__list-link-home">Home</a></li>
+               <li class="navmenu__list-link"><a href="" class="navmenu__list-link-edicoes">Ultimas Edições</a></li>
+               <li class="navmenu__list-link"><a href="" class="navmenu__list-link-requisitos">Requisitos para Participar</a></li>
+           </ul>
+           <div class="buttonmenu">
+               <button class="buttonmenu__button"><a href="#form">Login</a></button>
+           </div>   
+       </nav>
+   </header>
+</div>
+<div class="container">
+    <div class="container__content">
+        <h1 class="container__content-title">BOOTCAMP DNC</h1>
+        <P class="container__content-text">Esse será um evento exclusivo para todos os alunos<br>
+           da DNC, que querem <b>acelerar a carreira</b> com uma<br> 
+           semana intensiva de conteúdo de mercado entre<br> 
+          <b>BACK-END, FRONT-END & BANCO DE DADOS.</b> 
+        </P>
+    </div>
+</div>
+    <div class="container">
+         <form action="https://formspree.io/f/xeqypgap" class="container__form" method="POST" id="form">
+             <div class="container__form-name">
+                 <label for="" class="container__form-name-text">Nome:</label> <br>
+                 <input  class="container__form-name-input"type="text" name="Nome" placeholder="Insira seu nome aqui">
+             </div>
+             <div class="container__form-secondname">
+                 <label class="container__form-secondname-text" for="">Sobrenome:</label> <br>
+                 <input class="container__form-secondname-input" type="text" name="Sobrenome" placeholder="Insira seu sobrenome aqui">
+             </div>
+             <div class="container__form-interest">
+                 <label class="container__form-interest-text" for="">Área de interesse</label> <br>
+                 <h4 class="container__form-interest-input-front"><input  type="checkbox" name="Front-End">Front-End</h4>
+                 <h4 class="container__form-interest-input-back"><input  type="checkbox" name="Back-End">Back-End</h4>
+                 <h4 class="container__form-interest-input-dados"><input  type="checkbox" name="Banco de Dados">Banco de Dados</h4>
+             </div>
+             <div class="container__form-email">
+                 <label class="container__form-email-text"for="">E-mail:</label><br>
+                 <input class="container__form-email-input"type="email" name="E-mail" placeholder="Insira seu e-mail aqui">
+             </div>
+             <div class="container__form-phone">
+                 <label class="container__form-phone-text"for="">Telefone:</label> <br>
+                 <input class="container__form-phone-input"type="number" name="Telefone" placeholder="(99) 9999-9999">
+             </div>
+             <div class="container__form-creative">
+                 <label class="container__form-creative-text"for="">Insira uma frase criativa aqui:</label> <br>
+                 <input class="container__form-creative-input"type="text" name="Frase criativa" placeholder="Qual frase criativa você gostaria de falar?:)">
+             </div>
+             <div class="container__form-button-box">
+                    <button class="container__form-button" type="submit">Login</button>
+             </div>
+         </form>
+    </div>
+    <div class="container__footer">
+        <div class="container__footer-thelists">
+            <div class="container__footer-escolas">
+                    <h4 class="container__escolas-title">Escolas</h4>
+                    <ul class="container__escolas-list">
+                        <li class="container__escolas-tec">Formação em Tecnologia</li>
+                        <li class="container__escolas-mark">Formação em Marketing</li>
+                        <li class="container__escolas-dados">Formação em Dados</li>
+                        <li class="container__escolas-proj">Formação em Projetos</li>
+                        <li class="container__escolas-product">Formação em Produto</li>
+                    </ul>
+            </div>
+                <div class="container__footer-about">
+                        <h4 class="container__about-title">Sobre a DNC</h4>
+                        <ul class="container__about-list">
+                            <li class="container__about-history">História</li>
+                            <li class="container__about-missao">Missão e Valores</li>
+                            <li class="container__about-trabalho">Trabalhe Conosco</li>
+                            <li class="container__about-content">Conteúdo Gratuito</li>
+                        </ul>
+                </div>
+        </div>  
+        <div class="container__copyright">
+                <p>© 2022 DTC Treinamentos & Consultoria <br>
+                    LTDA | CNPJ: 27.995.577/0001-37 | R. <br>
+                    Justino Cobra, 61 – Vila Ema | São José dos <br>
+                    Campos – SP | CEP 12243-030</p>
+        </div>
+    </div> 
+    <div class="container__terms">
+        <a href="">Termos de Uso | Política de Privacidade</a>
+    </div> 
+    </div>
+</body>
+</html>
